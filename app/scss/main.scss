@@ -1,4 +1,28 @@
-$fa-font-path: '~font-awesome/fonts';
-// on modiife le chemin de node modules
-@import '~font-awesome/scss/font-awesome';
+@charset 'UTF-8';
+// inclusion des fichiers
+@import 'abstract/vars';
+
+@import 
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
 // le tilde veut dire node_modules
+// utilisation du pattern 7-1 https://sass-guidelin.es/fr/
+@import 'base/base';
+@import 
+    'layout/footer',
+    'layout/header',
+    'layout/main',
+    'layout/sidebar';
+
+@import
+    'components/action-button',
+    'components/archive',
+    'components/copyright',
+    'components/logo',
+    'components/main-nav',
+    'components/post',
+    'components/search',
+    'components/sign',
+    'components/social-nav';
+
+@import 'shame';
