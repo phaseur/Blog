@@ -1,0 +1,17 @@
+// def des couleurs
+$yellow: #FFEC00;
+$black: #000;
+$white: #F6F7F9;
+// attribution des couleurs
+$main-color: $yellow;
+$background-color: $white;
+$text-color: $black;
+// définir les tailles de font
+$default-font-size: 15px;
+$medium-font-size: 18px;
+// définir les font family
+$font-family: 'Montserrat', sans-serif;
+$font-family-fallback: 'Helvetica', Arial, sans-serif;
+
+// on modiife le chemin de node modules
+$fa-font-path: '~font-awesome/fonts';

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+
+html {
+ font-size: $default-font-size;
+}
+
+body {
+ font-family: $font-family, $font-family-fallback;
+ border: 18px solid $main-color;
+ padding: 2.5em 2em 1.5em 3em;
+}
+
+input {
+font-family : $font-family, $font-family-fallback;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
