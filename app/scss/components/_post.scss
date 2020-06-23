@@ -1,0 +1,32 @@
+.post {
+    position: relative;
+    &__title {
+        font-size: 3em;
+        padding-top: 1em;
+        font-weight: 500;
+        width: 75%;
+
+        span {
+            background: linear-gradient(to top, transparentize($main-color, 1) 10%,$main-color 10%, $main-color 30%, transparentize($main-color, 1) 30%);
+        }
+    }
+
+    &__image {
+       border-radius: 50%;
+       max-width: 50%;
+       position: absolute;
+       right: 0;
+       top: 10px;
+       z-index: -1;
+    }
+
+    &__info {
+       font-style: italic;
+       margin-top: 1.5em;
+    }
+    
+    &__content {
+
+    }
+
+}
