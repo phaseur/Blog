@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+
+    .post {
+        order: 2;
+        width: 75%;
+    }
+
+    .sidebar {
+        order: 1;
+        width: 25%;
+    }
+}
